@@ -7,7 +7,7 @@
 #         print("Piso:",i+1)
 
 # Ejemplo 2 BREAK
-for i in range(11_278_123_479_791):
-    print(i)
-    if i == 3:
-        break
+# for i in range(11_278_123_479_791):
+#     print(i)
+#     if i == 3:
+#         break
