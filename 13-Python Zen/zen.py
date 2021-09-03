@@ -1,5 +1,4 @@
 
-
 # Bello es mejor que feo.
 # Explícito es mejor que implícito.
 # Simple es mejor que complejo.
