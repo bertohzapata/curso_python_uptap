@@ -25,21 +25,32 @@ def run():
 
 
 
-    diccionario_numeros = {
-        "numeros_naturales": [1,2,3,4,5,6,7,8],
-        "numeros_enteros": [1,-4,0,56],
-        "numeros_flotantes": [1.1,4.5,6.7]
-    }
+    # diccionario_numeros = {
+    #     "numeros_naturales": [1,2,3,4,5,6,7,8],
+    #     "numeros_enteros": [1,-4,0,56],
+    #     "numeros_flotantes": [1.1,4.5,6.7]
+    # }
 
-    for nombre_lista, valores_lista in diccionario_numeros.items():
-        nueva_lista = list(valores_lista)
-        nueva_lista.append(100)
-        diccionario_numeros[nombre_lista] = nueva_lista
-    print(diccionario_numeros)
-
-
+    # for nombre_lista, valores_lista in diccionario_numeros.items():
+    #     nueva_lista = list(valores_lista)
+    #     nueva_lista.append(100)
+    #     diccionario_numeros[nombre_lista] = nueva_lista
+    # print(diccionario_numeros)
 
 
+
+    historial = [
+        {
+            "cuatrimestre_1": [
+                {"Asignatura": 1},
+                {"Asignatura": 2},
+                {"Asignatura": 3},
+                {"Asignatura": 4},
+                {"Asignatura": 5},
+            ]
+        },
+    ]
+    print(historial)
 
 
 
