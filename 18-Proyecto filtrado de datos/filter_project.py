@@ -81,8 +81,8 @@ def run():
     # El operador | suma el valor y campo al diccionario existente
 
     # filter y map
-    # all_python_devs = list(filter(lambda worker: worker["language"] == "python", DATA))
-    # all_python_devs = list(map(lambda worker: worker["name"], all_python_devs))
+    all_python_devs = list(filter(lambda worker: worker["language"] == "python", DATA))
+    all_python_devs = list(map(lambda worker: worker["name"], all_python_devs))
 
     all_platzi_workers = list(filter(lambda worker: worker["organization"] == "Platzi", DATA))
     all_platzi_workers = list(map(lambda worker: worker["name"], all_platzi_workers))
