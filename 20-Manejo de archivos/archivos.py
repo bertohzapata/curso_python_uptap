@@ -10,15 +10,15 @@ def read():
 
 def write():
     names = ["Humberto", "Edlin", "Kevin", "Antonio", "Alfredo", "Paulina"]
-    with open(f"{FILE_PATH}/archivos/names.txt", "a", encoding="utf-8") as f:
+    with open(f"{FILE_PATH}/archivos/names.txt", "w", encoding="utf-8") as f:
         for name in names:
             f.write(name)
             f.write("\n")
 
 
 def run():
-    # read()
-    write()
+    read()
+    # write()
 
 
 if __name__ == '__main__':
